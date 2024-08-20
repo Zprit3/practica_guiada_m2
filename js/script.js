@@ -15,8 +15,7 @@ $(document).ready(function() {
       $("#email-resumen").text(email);
       $("#mensaje-resumen").text(mensaje);
 
-      showAlert("¡Éxito!", "Tu mensaje se ha enviado correctamente.", "success");
-      console.log('Formulario enviado correctamente');
+      showAlert("¡Éxito!", "Formulario enviado correctamente.", "success");
   });
 
   function showAlert(title, message, type) {
